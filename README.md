@@ -39,6 +39,7 @@ dvc remote modify miniolocal endpointurl http://localhost:9000
 dvc remote modify miniolocal access_key_id admin
 dvc remote modify miniolocal secret_access_key 12345678
 dvc remote modify miniolocal use_ssl false
+dvc remote modify miniolocal ssl_verify false
 
 # Verify DVC configuration
 dvc config --list
